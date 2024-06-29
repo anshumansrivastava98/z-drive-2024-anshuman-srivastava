@@ -1,4 +1,35 @@
-.hello {
-  color: brown;
-  font-size: 48px;
+body {
+  font-family: Arial sans-serif;
+  margin: 0;
+  background-color: #ebebeb;
+}
+
+.table-wrapper {
+  padding: 48px;
+}
+
+.table-container {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+thead th {
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+
+thead th:hover {
+  background-color: #ddd;
 }
